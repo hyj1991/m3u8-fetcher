@@ -1,0 +1,29 @@
+{
+  "name": "m3u8-fetcher",
+  "version": "1.0.0",
+  "description": "download hls from m3u8",
+  "main": "fetcher.js",
+  "bin": {
+    "m3u8-fetcher": "bin/fetcher.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyj1991/m3u8-fetcher.git"
+  },
+  "keywords": [
+    "m3u8"
+  ],
+  "author": "hyj1991 <yeekwanvong@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyj1991/m3u8-fetcher/issues"
+  },
+  "homepage": "https://github.com/hyj1991/m3u8-fetcher#readme",
+  "dependencies": {
+    "p-map": "^4.0.0",
+    "urllib": "^2.37.2"
+  }
+}
